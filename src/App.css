@@ -1,0 +1,318 @@
+body{
+  background-color:#d2f1f5;
+}
+.App {
+  text-align: center;
+  min-height: xx;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.poke-containers{
+  margin: 15px;
+  border: 1px solid #f3fcfd;
+  border-radius: 15px;
+  width: 220px;
+  min-height: xx;
+}
+
+.image-div img{
+  margin-top:20px;
+  width: 170px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: 600;
+}
+.light{
+  text-decoration: none;
+  color:black;
+}
+
+
+.img-details-container{
+  margin: 15px;
+  border: 1px solid #f3fcfd;
+  border-radius: 15px;
+  width: 400px;
+  min-height: xx;
+}
+
+.img-size-d{
+  margin: 20px;
+  width: 300px;
+}
+.main-txt{
+  font-size: 25px;
+}
+.search-bar{
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid #ecf2f7;
+  border-radius: 10px;
+  height: 40px;
+  width: 220px;
+}
+.searchButton{
+  background-color: white;
+  padding: 8px;
+  border: 1px solid #EDF4F8;
+  border-radius: 7px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  
+}
+.header-txt{
+  font-size: 50px;
+  font-weight: 500;
+}
+.semi-header-txt{
+  font-size: 22px;
+  font-weight: 300;
+}
+.fl{
+  float: left;
+  margin-left: 105px;
+}
+.fll{
+  float: left;
+  margin-left: 20px;
+}
+.wb{
+  width: 150px;
+}
+.secondary-txt{
+  font-size: 20px
+}
+.tier-txt{
+  font-size: 18px
+}
+.big-con{
+  text-align: left;
+  background-color: #eb5252;
+  padding: 8px;
+  border: 1px solid #d2f1f5;
+  border-radius: 15px;
+}
+.small-con{
+  text-align: right;
+  background-color: #cfcdcd;
+  padding: 8px;
+  border: 1px solid #d2f1f5;
+  border-radius: 15px;
+}
+.secondary-container{
+  border: 2px solid black;
+  padding: 12px;
+  width: 25%;
+  border-radius: 25px;
+}
+.mid-con{
+  background-color: #222224;
+  border: 1px solid #d2f1f5;
+  border-radius: 15px;
+}
+
+
+
+@media screen and (max-width: 1064px){
+  .image-div img{
+    margin-top:10px;
+    width: 130px;
+  }
+  .main-txt{
+    font-size: 18px;
+  }
+  .secondary-txt{
+    font-size: 12px;
+  }
+  .poke-containers{
+    margin: 10px;
+    border: 1px solid #f3fcfd;
+    border-radius: 15px;
+    width: 180px;
+    min-height: xx;
+  }
+  .img-details-container{
+    margin: 10px;
+    border: 1px solid #f3fcfd;
+    border-radius: 15px;
+    width: 350px;
+    min-height: xx;
+  }
+  
+  .img-size-d{
+    margin: 20px;
+    width: 250px;
+  }
+  .search-bar{
+    height: 28px;
+    width: 190px;
+  }
+  .searchButton{
+    height: 45px;
+    width: 45px;
+  }
+
+  .header-txt{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .semi-header-txt{
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .wb{
+    width: 150px;
+  }
+  .secondary-container{
+    width: 320px;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 640px){
+  .image-div img{
+    margin-top:10px;
+    width: 100px;
+  }
+  .main-txt{
+    font-size: 14px;
+  }
+  .secondary-txt{
+    font-size: 9px;
+  }
+  .poke-containers{
+    margin: 5px;
+    border: 1px solid #f3fcfd;
+    border-radius: 15px;
+    width: 140px;
+    min-height: xx;
+  }
+  .img-details-container{
+    margin: 5px;
+    border: 1px solid #f3fcfd;
+    border-radius: 15px;
+    width: 250px;
+    min-height: xx;
+  }
+  
+  .img-size-d{
+    margin: 20px;
+    width: 180px;
+  }
+  .search-bar{
+    height: 24px;
+    width: 170px;
+  }
+  .searchButton{
+    height: 45px;
+    width: 45px;
+  }
+  .lb{
+    margin-right: 160px;
+  }
+  .header-txt{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .semi-header-txt{
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .wb{
+    width: 120px;
+    font-size: 12px;
+    height: 40px;
+  }
+  .fll{
+    float: left;
+    margin-left: 10px;
+  }
+  .secondary-container{
+    width: 220px;
+  }
+  .fl{
+    float: left;
+    margin-left: 100px;
+  }
+  .mr{
+    margin-right: 50px;
+  }
+}
+
+
+/* Extra Background Colors */
+.grass {
+  background-color: rgb(95, 235, 132);
+}
+
+.fire {
+  background-color: rgb(233, 113, 89);
+}
+
+.water {
+  background-color: rgb(96, 201, 236);
+}
+
+.electric {
+  background-color: rgb(240, 220, 89);
+}
+
+.ice {
+  background-color: rgb(95, 222, 233);
+}
+
+.fighting {
+  background-color: rgb(237, 139, 90);
+}
+
+.poison {
+  background-color: rgb(194, 95, 236);
+}
+.ground {
+  background-color: rgb(181, 131, 92);
+}
+
+.flying {
+  background-color: rgb(161, 215, 230);
+}
+
+.psychic {
+  background-color: rgb(219, 77, 207);
+}
+
+.ghost {
+  background-color: rgb(139, 57, 140);
+}
+
+.bug {
+  background-color: rgb(148, 210, 81);
+}
+
+.rock {
+  background-color: rgb(170, 110, 50);
+}
+
+.dragon {
+  background-color: rgb(105, 88, 215);
+}
+
+.normal {
+  background-color: rgb(168, 162, 157);
+}
+
+.fairy {
+  background-color: rgb(255, 148, 191);
+}
